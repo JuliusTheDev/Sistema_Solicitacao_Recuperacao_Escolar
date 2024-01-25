@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex2</title>
+	<link rel="stylesheet" href="estilo.css">
+	<script src="./eventos.js"></script>
+</head>
+<body>
+<h1>Pedidos de Recuperação</h1>
+
+<section>
+	<h2>1. Selecione o Professor</h2>
+	<label>Filtrar nome:</label>
+	<input type="search" id="filtro">
+	<div class="sectable">
+		<table id="lista">
+			<tr><td><img src="fem.png"><div>Ana Claudia Navarrete Menezes</div></td></tr>
+			<tr><td><img src="masc.png"><div>Gilberto Astolfi</div></td></tr>
+			<tr><td><img src="masc.png"><div>Emerson Augusto Miotto Corazza</div></td></tr>
+			<tr><td><img src="masc.png"><div>Flavio Amorim da Rocha</div></td></tr>
+			<tr><td><img src="masc.png"><div>Marcus Osorio</div></td></tr>
+			<tr><td><img src="masc.png"><div>Victor Augusto Merli Oliveira Lima</div></td></tr>
+			<tr><td><img src="masc.png"><div>Eduardo Garcia Valle</div></td></tr>
+			<tr><td><img src="masc.png"><div>Luis Eduardo Moraes Sinésio</div></td></tr>
+			<tr><td><img src="masc.png"><div>Luiz Simao Staszczak</div></td></tr>
+			<tr><td><img src="masc.png"><div>Carlos Alberto</div></td></tr>
+			<tr><td><img src="masc.png"><div>Ubirajara Cecilio Garcia</div></td></tr>
+			<tr><td><img src="fem.png"><div>Rosane de Brito Fernandez Garcia</div></td></tr>
+			<tr><td><img src="fem.png"><div>Eliane Rosa da Silva Dilkin</div></td></tr>
+			<tr><td><img src="masc.png"><div>Ronaldo Conceiçao da Silva</div></td></tr>
+			<tr><td><img src="masc.png"><div>Fabio Silva</div></td></tr>
+			<tr><td><img src="masc.png"><div>Alexandre S Silva</div></td></tr>
+			<tr><td><img src="fem.png"><div>Marcia Perex</div></td></tr>    
+		</table>
+	</div>
+</section>
+
+<section>
+	<h2>2. Mensagem:</h2>
+		<textarea id="redacao"></textarea>
+	<div>
+		<span id="restam">0</span>&nbsp;caracteres.
+	</div>
+</section>
+
+<section>
+	<h2>3. Tarefas que pretende realizar</h2>
+	<div><b>Pontos possíveis:
+		<span id="resultado">0</span></b>
+	</div>
+	<ul>
+	  <li><input type="checkbox" value="1"> - Lista de Exercícios (1pt)</li>
+	  <li><input type="checkbox" value="3"> - Implementação de Página Web (3pts)</li>
+	  <li><input type="checkbox" value="1"> - Lavar carro dos Professores (1pt)</li>
+	  <li><input type="checkbox" value="6"> - Avaliação prática (6pts)</li>
+	</ul>
+</section>
+
+<div class="center">
+	<input type="button" id="enviar" value="Enviar para Professor" style="display: none;">
+  </div>
+  
+
+</body>
+</html>
